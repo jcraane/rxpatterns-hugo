@@ -1,6 +1,6 @@
 ---
 title: "Scheduling Network Requests"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-05T11:35:28+02:00
 draft: false
 ---
 This pattern demonstrates scheduling periodic network requests which can be useful for keeping data up-to-date where web sockets or some other pusb based technology is not an option. To retrieve data from the network the switchMap operator is used instead of the flatMap operator. The difference between those operators is explained [here](https://medium.com/appunite-edu-collection/rxjava-flatmap-switchmap-and-concatmap-differences-examples-6d1f3ff88ee0).

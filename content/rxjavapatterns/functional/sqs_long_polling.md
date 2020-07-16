@@ -1,6 +1,6 @@
 ---
 title: "SQS Long Polling"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-09T11:35:28+02:00
 draft: false
 ---
 Demonstrates [SQS](https://aws.amazon.com/sqs/) long polling with RxJava. A long polling request may return 0 or more messages up to the configured maximum. Those messages are processed in parallel and a new long polling request is started when all messages are processed. 

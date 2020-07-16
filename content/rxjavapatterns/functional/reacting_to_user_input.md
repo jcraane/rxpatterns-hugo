@@ -1,6 +1,6 @@
 ---
 title: "Reacting To User Input"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-10T11:35:28+02:00
 draft: false
 ---
 This demo consists of a user interface containing a zipcode and housenumber fields. We want to retrieve the addess for zipcode and housenumber combination when both fields are filled-in by the user and valid. When the housenumber changes, we want to wait 300ms before exeuting the request. This demo is written in Android/Kotlin and uses an extension function to convert the EditText input to an Observable.  

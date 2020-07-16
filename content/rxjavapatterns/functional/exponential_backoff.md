@@ -1,6 +1,6 @@
 ---
 title: "Exponential Backoff"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-08T11:35:28+02:00
 draft: false
 ---
  When scheduling repeated work [Exponential backoff](https://en.wikipedia.org/wiki/Exponential_backoff) can be used to retry a failed request. When the scheduling interval is high (for example 1 hour), this makes sure the request is retried relatively fast so you do not have to wait before the next interval occurs.

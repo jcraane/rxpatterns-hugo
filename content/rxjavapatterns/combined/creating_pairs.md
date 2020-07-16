@@ -1,6 +1,6 @@
 ---
 title: "Creating Pairs"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-01T11:35:28+02:00
 draft: false
 ---
 This demo generates consecutive pairs from a sequence of numbers. This is done by combining the original sequence with the same sequence starting from the second element (the skip(1)). The zip function combines the elements from both streams in order and emits as many items as the source observable with the fewest items. See [Zip function](http://reactivex.io/documentation/operators/zip.html). 

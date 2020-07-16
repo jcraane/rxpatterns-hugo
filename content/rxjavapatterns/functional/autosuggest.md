@@ -1,6 +1,6 @@
 ---
 title: "Autosuggest"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-07T11:35:28+02:00
 draft: false
 ---
 The auto suggest demo, demonstrates a possible implementation for text based suggestion using rx. The following solution address the following, functional problems:

@@ -1,6 +1,6 @@
 ---
 title: "Retrofit Android"
-date: 2020-07-16T11:35:28+02:00
+date: 2020-07-02T11:35:28+02:00
 draft: false
 ---
 This patterns demos executing a [Retrofit](http://square.github.io/retrofit/) request within Android. To always execute the request in the background you can create the RxJavaCallAdapter by using the Schedulers.io() scheduler. For testing you can pass an immediate() or a test scheduler during creation of the API.
