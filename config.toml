@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Async Code Patterns"
+theme = "diary"
+[[menu.main]]
+url = "/rxjavapatterns"
+name = "RxJava Patterns"
+weight = 1
+[[menu.main]]
+url = "/rxjavapatterns/combined"
+name = "Combining"
+weight = 2
+[[menu.main]]
+url = "/rxjavapatterns/network_requests"
+name = "Network Requests"
+weight = 3
+[[menu.main]]
+url = "/rxjavapatterns/various"
+name = "Various"
+weight = 4
+[[menu.main]]
+url = "/rxjavapatterns/functional"
+name = "Functional"
+weight = 5
